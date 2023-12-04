@@ -114,3 +114,70 @@ export const faqs = [
         answer: "Atleast twice in a week to keep fit both physically and other wise"
     },
 ]
+
+export const testimonials = [
+    {
+        id: 1,
+        name: "Peter Gyang",
+        quote: "I interact with this website Atleast twice in a week to keep fit both physically and other wise",
+        job: "Web Developer",
+        avatar: require("./images/gym 2.jpg")
+    },
+    {
+        id: 2,
+        name: "Victor James",
+        quote: "I interact with this platform and I got value which help my fitness to 100% success",
+        job: "Student",
+        avatar: require("./images/gymboy1.jpg")
+    },
+    {
+        id: 3,
+        name: "Jesica Pam",
+        quote: "Atleast I use this application for my fitness and that of something",
+        job: "civil servant",
+        avatar: require("./images/boxinggirl1.jpg")
+    },
+    {
+        id: 4,
+        name: " Sunday John",
+        quote: "Atleast twice in a week on this platform improve my fitness by 40%",
+        job: "Data Scientist",
+        avatar: require("./images/carl-barcelo-nqUHQkuVj3c-unsplash.jpg")
+    },
+    {
+        id: 5,
+        name: " Isaac Doe",
+        quote: "This is an amzing solution to the fitness and physical exercis as a whole, Try it out.",
+        job: "pharmacist",
+        avatar: require("./images/boxinggirl3.jpg")
+    },
+   
+]
+
+export const plans = [
+    {
+        id: "1",
+        name: "Silver package",
+        desc: "This package is good for beginner who need help"
+    },
+    {
+        id: "1",
+        name: "Silver package",
+        desc: "This package is good for beginner who need help"
+    },
+    {
+        id: "1",
+        name: "Silver package",
+        desc: "This package is good for beginner who need help"
+    },
+    {
+        id: "1",
+        name: "Silver package",
+        desc: "This package is good for beginner who need help"
+    },
+    {
+        id: "1",
+        name: "Silver package",
+        desc: "This package is good for beginner who need help"
+    },
+]
