@@ -1,9 +1,6 @@
-import {Link, Links} from "react-router-dom";
+import {Link} from "react-router-dom";
 import Logo from "../images/logoH.jpg";
-import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { AiOutlineTwitter } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
+import { FaInstagram, FaLinkedin, FaTwitter , FaFacebookF} from "react-icons/fa";
 
 
 const Footer = () => {
@@ -17,7 +14,7 @@ const Footer = () => {
                 <p>We are commited to offering our services cutting across different age and cycle</p>
                 <div className="footer__socials">
                     <a href="https://linkedin.com/" target="_blank" rel="noreferrer noopener"><FaLinkedin/></a>
-                    <a href="https://facebook.com/" target="_blank" rel="noreferrer noopener"><FaFacebook/></a>
+                    <a href="https://facebook.com/" target="_blank" rel="noreferrer noopener"><FaFacebookF/></a>
                     <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener"><FaTwitter/></a>
                     <a href="https://instagram.com/" target="_blank" rel="noreferrer noopener"><FaInstagram/></a>
                 </div>
@@ -40,11 +37,8 @@ const Footer = () => {
             </article>
             <article>
                 <h4>Get In Touch</h4>
-                <Link to="/contact">Contacq</Link>
-                <Link to="/plans">Plans</Link>
-                <Link to="/trainers">Trainers</Link>
-                <Link to="/gallery">Gallery</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact">Contact Us</Link>
+                <Link to="/S">Support</Link>
             </article>
         </div>
         <div className="footer__copyright">
