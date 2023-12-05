@@ -121,7 +121,7 @@ export const testimonials = [
         name: "Peter Gyang",
         quote: "I interact with this website Atleast twice in a week to keep fit both physically and other wise",
         job: "Web Developer",
-        avatar: require("./images/gym 2.jpg")
+        avatar: require("./images/gymgirl1.jpg")
     },
     {
         id: 2,

@@ -154,4 +154,104 @@
 .card.testimonial {
     position: relative;
     text-align:left;
+    margin-top: 5rem;
+}
+.testimonial__avatar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1.5rem;
+    border: 2px solid transparent;
+    overflow: hidden;
+    position: absolute;
+    top: -2rem;
+    left: calc(50% - 2rem);
+    box-shadow: 0 0.5rem 2rem rgba(26, 26, 54, 0.4);
+    transition: var(--transition);
+}
+.testimonial:hover .testimonial__avatar {
+    border-radius: 50%;
+    border-color: var(--color-gray-400);
+}
+.testimonial__quote {
+    font-style: italic;
+    margin: 1rem 0 2rem;
+}
+
+.card small.testimonial__title{
+    margin-top: 0.3rem;
+}
+.testimonials__btn-container{
+    width: fit-content;
+    margin: 2.5rem auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.testimonial__btn {
+    background: transparent;
+    cursor: pointer;
+}
+.testimonial__btn svg {
+    fill:var(--color-primary);
+    font-size: 1.8rem;
+    width: 3rem;
+    height: 3rem; 
+    font-size: 0.9rem;
+    color: var(--color-gray-100); 
+}
+
+
+
+/* =============================== FOOTER ============================= */
+footer {
+    background: var(--color-primary);
+    margin-top: 7rem;
+    padding-top: 7rem;
+}
+.footer__container {
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    gap: 6rem;
+}
+.footer__container article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+.footer__container article p {
+    margin-top: 0.5rem;
+}
+.footer__container article h4 {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+}
+.footer__socials {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+} 
+.footer__socials a {
+    background: var(--color-gray-100);
+    padding: 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+    transition: var(--transition);
+}
+.footer__socials a  svg {
+    color: var(--color-gray-600);
+}
+.footer__socials a:hover{
+    border: var(--color-gray-100);
+    background: transparent;
+}
+.footer__copyright {
+    color: var(--color-gray-100);
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 2px solid var(--color-primary-variant);
+    margin-top: 5rem;
 }
