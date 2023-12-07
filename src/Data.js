@@ -227,3 +227,94 @@ export const plans = [
     
    
 ]
+
+
+
+
+
+
+const Trainer1 = require("./images/trainer1.jpg")
+const Trainer2 = require("./images/trainer2.jpg")
+const Trainer3 = require("./images/trainer3.jpg")
+const Trainer4 = require("./images/trainer4.jpg")
+const Trainer5 = require("./images/trainer5.jpg")
+const Trainer6 = require("./images/trainer6.jpg")
+
+
+export const trainers = [
+    {
+        id: 1,
+        image: Trainer1,
+        name: "James Bob",
+        job: "Aerobic Trainer",
+        socials: [
+            "https://instagram.com", "https://twitter.com", "https://facebook.com", "https://linkedn.com" 
+        ]
+
+    },
+    {
+        id: 2,
+        image: Trainer2,
+        name: "Peter Joe",
+        job: "Speed Trainer",
+        socials: [
+            "https://instagram.com", "https://twitter.com", "https://facebook.com", "https://linkedn.com" 
+        ]
+
+    },
+    {
+        id: 3,
+        image: Trainer3,
+        name: "Halan Jeth",
+        job: "Flexibility Trainer",
+        socials: [
+            "https://instagram.com", "https://twitter.com", "https://facebook.com", "https://linkedn.com" 
+        ]
+
+    },
+    {
+        id: 4,
+        image: Trainer4,
+        name: "Lil Jones",
+        job: "Circuit Trainer",
+        socials: [
+            "https://instagram.com", "https://twitter.com", "https://facebook.com", "https://linkedn.com" 
+        ]
+
+    },
+    {
+        id: 5,
+        image: Trainer5,
+        name: "Dave Paul",
+        job: "Body Composition Trainer",
+        socials: [
+            "https://instagram.com", "https://twitter.com", "https://facebook.com", "https://linkedn.com" 
+        ]
+
+    },
+    {
+        id: 6,
+        image: Trainer6,
+        name: "Paul Walter",
+        job: "Physical Inteligence Trainer",
+        socials: [
+            "https://instagram.com", "https://twitter.com", "https://facebook.com", "https://linkedn.com" 
+        ]
+
+    },
+    {
+        id: 1,
+        image: Trainer1,
+        name: "James Bob",
+        job: "Aerobic Trainer",
+        socials: [
+            "https://instagram.com", "https://twitter.com", "https://facebook.com", "https://linkedn.com" 
+        ]
+
+    },
+
+
+
+
+
+]
