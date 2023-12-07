@@ -1,4 +1,4 @@
-import {SiOpenaigym} from "react-icons/si";
+import { SiOpenaigym } from "react-icons/si";
 
 
 export const links = [
@@ -91,7 +91,6 @@ export const values = [
 ]
 
 
-
 export const faqs = [
     {
         id: 1,
@@ -121,35 +120,35 @@ export const testimonials = [
         name: "Peter Gyang",
         quote: "I interact with this website Atleast twice in a week to keep fit both physically and other wise",
         job: "Web Developer",
-        avatar: require("./images/gymgirl1.jpg")
+        avatar: require("./images/logan.jpg")
     },
     {
         id: 2,
         name: "Victor James",
         quote: "I interact with this platform and I got value which help my fitness to 100% success",
         job: "Student",
-        avatar: require("./images/gymboy1.jpg")
+        avatar: require("./images/jonas-kakarot.jpg")
     },
     {
         id: 3,
         name: "Jesica Pam",
         quote: "Atleast I use this application for my fitness and that of something",
         job: "civil servant",
-        avatar: require("./images/boxinggirl1.jpg")
+        avatar: require("./images/ali-morshedlo.jpg")
     },
     {
         id: 4,
         name: " Sunday John",
         quote: "Atleast twice in a week on this platform improve my fitness by 40%",
         job: "Data Scientist",
-        avatar: require("./images/carl-barcelo-nqUHQkuVj3c-unsplash.jpg")
+        avatar: require("./images/boliviaint.jpg")
     },
     {
         id: 5,
         name: " Isaac Doe",
         quote: "This is an amzing solution to the fitness and physical exercis as a whole, Try it out.",
         job: "pharmacist",
-        avatar: require("./images/boxinggirl3.jpg")
+        avatar: require("./images/irene-strong.jpg")
     },
    
 ]
@@ -158,26 +157,73 @@ export const plans = [
     {
         id: "1",
         name: "Silver package",
-        desc: "This package is good for beginner who need help"
+        desc: "This package is good for beginner who  constant help",
+        price: 29.99,
+        features: {
+            title: "feature",
+            items:             
+            [
+            {feature: 'First Feature', available: true},
+            {feature: 'Second Feature', available: true},
+            {feature: 'Third Feature', available: true},
+            {feature: 'Fourth Feature', available: true},
+            {feature: 'Fifth Feature', available: false},
+            {feature: 'Sixeth Feature', available: false},
+            {feature: 'Seventh Feature', available: false},
+            {feature: 'Eighth Feature', available: false},
+            {feature: 'Nineth Feature', available: false},
+            {feature: 'Tenth Feature', available: false},
+            {feature: 'Eleventh Feature', available: false}
+            ],
+         },
+    },
+
+    {
+        id: "2",
+        name: "Gold package",
+        desc: "This package is good for beginner who now knows what they are doing.",
+        price: 49.99,
+        features: {
+            title: "feature",
+            items: 
+            [
+                {feature: 'First Feature', available: true},
+                {feature: 'Second Feature', available: true},
+                {feature: 'Third Feature', available: true},
+                {feature: 'Fourth Feature', available: true},
+                {feature: 'Fifth Feature', available: true},
+                {feature: 'Sixeth Feature', available: true},
+                {feature: 'Seventh Feature', available: true},
+                {feature: 'Eighth Feature', available: false},
+                {feature: 'Nineth Feature', available: false},
+                {feature: 'Tenth Feature', available: false},
+                {feature: 'Eleventh Feature', available: false}
+            ]
+         },
     },
     {
-        id: "1",
-        name: "Silver package",
-        desc: "This package is good for beginner who need help"
+        id: "3",
+        name: "Platinum package",
+        desc: "This package is good for bussy people who needs home service",
+        price: 89.99,
+        features: {
+            title: "feature",
+            items:     
+            [
+                {feature: 'First Feature', available: true},
+                {feature: 'Second Feature', available: true},
+                {feature: 'Third Feature', available: true},
+                {feature: 'Fourth Feature', available: true},
+                {feature: 'Fifth Feature', available: true},
+                {feature: 'Sixeth Feature', available: true},
+                {feature: 'Seventh Feature', available: true},
+                {feature: 'Eighth Feature', available: true},
+                {feature: 'Nineth Feature', available: true},
+                {feature: 'Tenth Feature', available: true},
+                {feature: 'Eleventh Feature', available: false}
+            ]
+        }
     },
-    {
-        id: "1",
-        name: "Silver package",
-        desc: "This package is good for beginner who need help"
-    },
-    {
-        id: "1",
-        name: "Silver package",
-        desc: "This package is good for beginner who need help"
-    },
-    {
-        id: "1",
-        name: "Silver package",
-        desc: "This package is good for beginner who need help"
-    },
+    
+   
 ]

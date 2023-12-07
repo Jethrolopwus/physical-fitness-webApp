@@ -342,6 +342,28 @@ footer {
         width:84%;
         margin-inline:auto;
     }
-
+    /* FAQs */
+    .faqs__wrapper{
+        gap:1rem;
+        margin-top:3rem;
+    }
+    /* TESTIMONIALS */
+    .testimonials {
+        width:100%;
+    }
+    /* FOOTER */
+    footer{
+        margin-top:7rem;
+    }
+    .footer__container{
+        grid-template-columns:1fr;
+        gap:3rem;
+    }
+    .footer__container article {
+        align-items:center;
+    }
+    .footer__container article p{
+        text-align: center;
+    }
 
 }

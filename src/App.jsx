@@ -9,6 +9,7 @@ import Notfound from  "./Pages/Notfound/Notfound";
 import Plans from  "./Pages/Plans/Plans";
 import Trainers from  "./Pages/Trainers/Trainers";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (  
@@ -23,13 +24,7 @@ const App = () => {
         <Route path="trainers" element= {<Trainers/>} />
         <Route path="*" element= {<Notfound/>} />
        </Routes>
-      {/* <Home/>
-      <About/>
-      <Contact/>
-      <Gallery/>
-      <Notfound/>
-      <Plans/>
-      <Trainers/> */}
+      <Footer/>
     </BrowserRouter>
   )
 }
