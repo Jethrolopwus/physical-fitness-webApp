@@ -50,8 +50,6 @@
     .about__vision .about__section-image{
         grid-row: 1;
     }
-   
-
 }
 
 /* MEDIA QUERIES (small screen) */
@@ -63,6 +61,4 @@
 .about__mision-container, .about__story-container, .about__vision-container{
     gap:2rem;
 }
-
-   
 }

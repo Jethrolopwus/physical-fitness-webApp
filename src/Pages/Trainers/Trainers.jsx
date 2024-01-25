@@ -14,7 +14,7 @@ const Trainers = () =>{
             <Header title="Out Trainers" image={HeaderImage}>
                 OurTrainers are experts and well experienced and with vast knowledge.
             </Header>
-            <section classname="trainers">
+            <section className="trainers">
                 <div className="container trainers__container">
                     {
                         trainers.map(({ id, image, name, job, socials }) => {

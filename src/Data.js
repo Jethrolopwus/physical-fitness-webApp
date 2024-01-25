@@ -42,21 +42,21 @@ export const programs =[
     {
         id: 2,
         icon: <SiOpenaigym/>,
-        title: "program1",
+        title: "program2",
         info: "This is the day that the Lord has made. we will rejoice",
         path: "/programs/222"
     },
     {
         id: 3,
         icon: <SiOpenaigym/>,
-        title: "program1",
+        title: "program3",
         info: "This is the day that the Lord has made. we will rejoice",
         path: "/programs/333"
     },
     {
         id: 4,
         icon: <SiOpenaigym/>,
-        title: "program1",
+        title: "program4",
         info: "This is the day that the Lord has made. we will rejoice",
         path: "/programs/444"
     },
@@ -104,12 +104,12 @@ export const faqs = [
     },
     {
         id: 3,
-        question: "How oftens should I exercise",
-        answer: "Atleast twice in a week to keep fit both physically and other wise"
+        question: "what is the best time for gym",
+        answer: "Mostly in the evening and twice in a week to keep fit both physically and other wise"
     },
     {
         id: 4,
-        question: "How oftens should I exercise",
+        question: "How oftens should I go to the gym",
         answer: "Atleast twice in a week to keep fit both physically and other wise"
     },
 ]
@@ -302,16 +302,7 @@ export const trainers = [
         ]
 
     },
-    {
-        id: 1,
-        image: Trainer1,
-        name: "James Bob",
-        job: "Aerobic Trainer",
-        socials: [
-            "https://instagram.com", "https://twitter.com", "https://facebook.com", "https://linkedn.com" 
-        ]
-
-    },
+  
 
 
 
